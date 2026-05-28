@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Theme.GeoPulseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#07111F</item>
+        <item name="android:navigationBarColor">#07111F</item>
+    </style>
+
+</resources>

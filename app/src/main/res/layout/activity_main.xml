@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_geopulse_screen"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GeoPulse Tracker"
+            android:textColor="@color/soft_white"
+            android:textSize="31sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Localisation intelligente et synchronisation vers MySQL"
+            android:textColor="@color/muted_text"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvSyncState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/bg_status_chip"
+            android:text="● En attente du GPS"
+            android:textColor="@color/electric_blue"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/bg_location_card"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dernière position détectée"
+                android:textColor="@color/soft_white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvLatitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Latitude : --"
+                android:textColor="@color/soft_white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvLongitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Longitude : --"
+                android:textColor="@color/soft_white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvAltitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Altitude : --"
+                android:textColor="@color/soft_white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvPrecision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Précision : --"
+                android:textColor="@color/soft_white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tvCaptureDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Date : --"
+                android:textColor="@color/muted_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvDeviceCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Appareil : --"
+                android:textColor="@color/muted_text"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSendNow"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_sync_button"
+            android:text="Synchroniser maintenant"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/midnight_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvServerReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Réponse serveur : aucune donnée envoyée."
+            android:textColor="@color/muted_text"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

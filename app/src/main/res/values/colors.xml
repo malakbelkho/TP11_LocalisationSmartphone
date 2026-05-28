@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="midnight_blue">#07111F</color>
+    <color name="deep_indigo">#162447</color>
+    <color name="electric_blue">#38BDF8</color>
+    <color name="aqua_green">#2DD4BF</color>
+    <color name="soft_white">#F8FAFC</color>
+    <color name="muted_text">#94A3B8</color>
+    <color name="card_dark">#132238</color>
+    <color name="card_stroke">#29415F</color>
+    <color name="warning_orange">#FB923C</color>
+    <color name="success_green">#22C55E</color>
+</resources>
