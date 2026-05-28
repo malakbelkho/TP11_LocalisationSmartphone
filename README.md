@@ -92,6 +92,10 @@ Le serveur PHP/MySQL :
 
 
 
+https://github.com/user-attachments/assets/c2323c74-a4f4-4c8a-8e47-dfea381f4a53
+
+
+
 ## Captures du serveur et des tests:
 
 Les captures suivantes montrent la création de la base de données, la vérification de la table MySQL et le test du script PHP avec REST Client.
