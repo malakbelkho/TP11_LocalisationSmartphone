@@ -58,7 +58,7 @@ Les données sont ensuite envoyées vers un script PHP qui les insère dans la t
 - REST Client
 - API minimum : 24
 
-## Architecture générale:<img width="748" height="544" alt="create-database" src="https://github.com/user-attachments/assets/38ad0efc-8a92-4fb1-b352-6bddb3511b75" />
+## Architecture générale:
 
 
 Le projet est divisé en deux parties principales :
